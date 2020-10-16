@@ -1,6 +1,5 @@
 import multer from 'multer'
 import path from 'path'
-import { request } from 'express'
 
 export default {
     storage: multer.diskStorage({
