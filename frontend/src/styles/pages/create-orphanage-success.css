@@ -1,0 +1,70 @@
+#success-page {
+    width: 100vw;
+    height: 100vh;
+
+    background: #37c77f;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#success-page .content-success {
+    position: relative;
+
+    width: 100%;
+    max-width: 1100px;
+
+    height: 100%;
+    max-height: 1100px;
+
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: center;
+
+    margin-right: 200px;
+    background: url(../../images/success.svg) no-repeat 100%;
+}
+
+#success-page .content-success main {
+    max-width: 400px;
+    margin-right: 300px;
+    margin-bottom: 100px;
+}
+
+#success-page .content-success main h1 {
+    font-size: 76px;
+    font-weight: 900;
+    line-height: 70px;
+}
+
+#success-page .content-success main p{
+    margin-top: 40px;
+    font-size: 24px;
+    line-height: 34px;
+}
+
+#success-page .content-success main .back-mapp{
+    position: absolute;
+
+    width: 200px;
+    height: 80px;
+    background: #31B272;
+    border-radius: 30px;
+
+    color: #FFF;
+    text-decoration: none;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    transition: background-color 0.2s;
+    margin-top: 20px;
+    
+}
+
+#success-page .content-success main .back-mapp:hover {
+    background: #3BD689;
+} 
