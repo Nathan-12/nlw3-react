@@ -43,16 +43,16 @@
 
 .content-wrapper .location{
     position: absolute;
-    right: 0;
+    left: 0;
     top: 0;
-
+    margin-left: 270px;
     font-size: 24px;
     line-height: 34px;
 
     display: flex;
     flex-direction: column;
 
-    text-align: right;
+    text-align: left;
 }
 
 .content-wrapper .location strong{
@@ -78,4 +78,30 @@
 
 .content-wrapper .enter-app:hover {
     background: #96feff;
+}
+
+.content-wrapper .private-access{
+    position: absolute;
+    right: 0;
+    top: 0;
+
+    width: 200px;
+    height: 80px;
+    background: #12D4E0;
+    border-radius: 30px;
+
+    color: #FFF;
+    text-decoration: none;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    transition: background-color 0.2s;
+    margin-top: 20px;
+}
+
+.content-wrapper .private-access:hover {
+    background: #96FEFF;
+    color: #12D4E0;
 }
