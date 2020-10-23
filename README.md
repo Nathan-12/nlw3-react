@@ -9,3 +9,8 @@
 <p>-- O sistema está sendo desenvolvido em TypeScript (frontend e backend)</p>
 <p>-- Para o frontend está sendo utilizado a biblioteca React e no backend o Node</p>
 <p>-- A aplicação mobile está sendo desenvolvida usando o React Native, para ajudar no projeto está sendo usado o expo</p>
+
+# Funções em desenvolvimento
+
+<p>-- Opções de login/cadastro/recuperação de senha</p>
+<p>-- Seção para usuário autenticado, para que possa aprovar orfanatos que foram cadastrados, além de poder gerenciar os orfanatos (Deletar, editar)</p>
