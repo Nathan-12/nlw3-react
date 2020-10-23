@@ -15,7 +15,7 @@
 [Node.js](https://nodejs.org/en/docs/) -
 [React Native](https://reactnative.dev/docs/getting-started) -
 [Expo](https://docs.expo.io/) -
-[SQLite](https://sqlite.org/docs.html) -
+[SQLite](https://sqlite.org/docs.html) 
 
 # Funções em desenvolvimento
 
