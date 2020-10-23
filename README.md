@@ -11,11 +11,11 @@
 - A aplicação mobile está sendo desenvolvida usando o React Native, para ajudar no projeto está sendo usado o expo
 - O banco de dados que está sendo usado atualmente é o SQLite
 
--[React](https://pt-br.reactjs.org/docs/getting-started.html)
--[Node.js](https://nodejs.org/en/docs/)
--[React Native](https://reactnative.dev/docs/getting-started)
--[Expo](https://docs.expo.io/)
--[SQLite](https://sqlite.org/docs.html)
+<p>[React](https://pt-br.reactjs.org/docs/getting-started.html)</p>
+<p>[Node.js](https://nodejs.org/en/docs/)</p>
+<p>[React Native](https://reactnative.dev/docs/getting-started)</p>
+<p>[Expo](https://docs.expo.io/)</p>
+<p>[SQLite](https://sqlite.org/docs.html)</p>
 
 # Funções em desenvolvimento
 
