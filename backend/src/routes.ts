@@ -12,5 +12,6 @@ routes.get("/orphanages", OrphanagesController.index);
 routes.get("/orphanages/:id", OrphanagesController.show);
 routes.post("/orphanages", upload.array('images') ,OrphanagesController.create);
 routes.post("/users", UsersController.create);
+routes.get("/user", UsersController.show);
 
 export default routes;

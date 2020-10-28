@@ -17,7 +17,7 @@ function Routes() {
                 <Route path="/orphanage/create" component={CreateOrphanage} />
                 <Route path="/orphanage/:id" component={Orpahnage} />
                 <Route path="/createsuccess" component={CreateOrphanageSuccess} />
-                <Route path="/createuser" component={CreateUser} />
+                <Route path="/createuserHAPPYURLANONIMA" component={CreateUser} />
             </Switch>
         </BrowserRouter>
     );
