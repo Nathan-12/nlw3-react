@@ -13,5 +13,6 @@ routes.get("/orphanages/:id", OrphanagesController.show);
 routes.post("/orphanages", upload.array('images') ,OrphanagesController.create);
 routes.post("/users", UsersController.create);
 routes.get("/user", UsersController.show);
+routes.post("/authenticate", UsersController.login);
 
 export default routes;
