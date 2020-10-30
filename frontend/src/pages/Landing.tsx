@@ -20,7 +20,7 @@ function Landing() {
                     <span>Ceará</span>
                 </div>
 
-                <Link to="/createuser" className="private-access">
+                <Link to="/login" className="private-access">
                     Acesso restrito
                 </Link>
 

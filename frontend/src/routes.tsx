@@ -7,6 +7,7 @@ import Orpahnage from './pages/Orphanage';
 import CreateOrphanage from './pages/CreateOrphanage';
 import CreateOrphanageSuccess from './pages/CreateOrphanageSuccess';
 import CreateUser from './pages/Login/CreateUser';
+import Login from './pages/Login/Login';
 
 function Routes() {
     return (
@@ -18,6 +19,7 @@ function Routes() {
                 <Route path="/orphanage/:id" component={Orpahnage} />
                 <Route path="/createsuccess" component={CreateOrphanageSuccess} />
                 <Route path="/createuserHAPPYURLANONIMA" component={CreateUser} />
+                <Route path="/login" component={Login} />
             </Switch>
         </BrowserRouter>
     );

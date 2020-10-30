@@ -60,6 +60,7 @@ export default {
             const user = await usersRepository.findOne({ email });
             
             const data = {
+                email,
                 senha
             }
             
